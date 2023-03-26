@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<title>POKÉMON.html</title>
+		<meta charset="UTF-8">
+		<style type="text/css"> 
+			body						{	margin: 0 auto;
+											min-width: 16em;
+											max-width: 60em;}
+			header, footer 				{ 	background-color: #ffff00;
+											padding: 0.5em;
+											text-align:center;}
+			nav 						{	background-color: #ffff00;
+											height: 1.5em; 
+											padding: 0.3em 0 0.3em 0;
+											text-align:center;}
+			nav ul 						{	list-style-type: none;	
+											padding: 0;
+											margin:  0em}
+			nav ul li 					{	float: left;	
+											position: relative;}
+			nav ul li a 				{	display: block;
+											width: 8em;
+											border: 1px solid #666666;
+											background-color: #9933ff;
+											padding: 0.1em;
+											color: #ffff66;
+											text-decoration: none;
+											font-weight: bold;}
+			nav ul li a:hover 			{	background-color: #ffff00
+			;
+											color: #ffffff; }
+			nav ul li ul 				{   display: none;
+											position: absolute;}
+			nav ul li:hover ul 			{ 	display: block; }
+			nav ul li:hover ul a 		{  	display: block;
+											width: 8em;
+											color: black;
+											text-align: center;
+											background-color: yellow;}
+			nav ul li ul li a:hover 	{	background-color: silver;}
+		</style>
+	</head>
+	<body>
+		<header>POKÉMON</header>
+		<nav>
+			<ul>
+			<li>
+					<a href="#">Shinys</a>
+					<ul>
+						<li><a href="#">Was sind Shinys?</a></li>
+					</ul>
+				</li>
+			</ul>
+				<ul>
+				<li>
+				<a href="#"></a>
+					<ul>
+						<li><a href="#"></a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<main>
+			<h1>POKÉMON</h1>
+			<p>Gotta catch ´em all!</p>
+			<p>Die POKÉMON-Welt bietet viele verschieden Arten von POKÉMON an. Die meisten POKÉMON basieren auf echten Lebewesen ,wie z.B Raupy der einer Raupe ähnelt,Froxy der einem Frosch ähnelt oder auch Flamiau, welcher einer Katze ähnelt.Alle POKÉMON ausser die Legendären haben eine Weiterentwicklung.Die Entwicklungen passieren meistens, indem das Pokemon im Level aufsteigt.Jedoch gibt es manche POKÉMON, wie z.B. Pikachu welche sich nur mit bestimmten Steinen oder anderen Items entwickeln können in dem Fall wäre es nämlich der Donnerstein!</p>
+		</main>
+		<footer></footer>
+	</body>
