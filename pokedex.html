@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+  <style>
+    body {
+      margin: 0 auto;
+      min-width: 16em;
+      max-width: 60em;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header,
+    footer {
+      background-color: #ffff00;
+      padding: 0.5em;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #ffff00;
+      height: 1.5em;
+      padding: 0.3em 0 0.3em 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0em
+    }
+
+    nav ul li {
+      float: left;
+      position: relative;
+    }
+
+    nav ul li a {
+      display: block;
+      width: 8em;
+      border: 1px solid #666666;
+      background-color: #9933ff;
+      padding: 0.1em;
+      color: #ffff66;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      background-color: #ffff00;
+      color: #ffffff;
+    }
+
+    nav ul li ul {
+      display: none;
+      position: absolute;
+    }
+
+    nav ul li:hover ul {
+      display: block;
+    }
+
+    nav ul li:hover ul a {
+      display: block;
+      width: 8em;
+      color: black;
+      text-align: center;
+      background-color: yellow;
+    }
+
+    nav ul li ul li a:hover {
+      background-color: silver;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>POKÉMON</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Startseite</a></li>
+      <li>
+        <a href="#">Shinys</a>
+        <ul>
+          <li><a href="shinys.html">Was sind Shinys?</a></li>
+        </ul>
+      </li>
+      <li><a href="pokedex.html">Pokedex</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>Pokedex</h2>
+    <p>Der Pokedex ist eine umfangreiche Datenbank, die alle bekannten Pokemon enthält Im Pokedex sind alle Pokemon die
+      es
+      gibt registriert. Ausserdem stehen alle Informationen zu jedem Pokemon, wie z.B Geschlecht,Größe als auch Gewicht.
+      Im Pokedex steht sogar wo und wann man das Pokemon finden kann. Jedoch gibt es einige Ausnahmen bei Legendären
+      oder
+      mythischen Pokemon, über die es keine offiziellen Informationen gibt sondern nur Theorien oder Märchen, da diese
+      Pokemon zu selten sind.</p>
+  </main>
+  <footer>
+    <p>©2023 - Alle Rechte vorbehalten</p>
+  </footer>
+</body>
+</html>
