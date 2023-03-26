@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pokedex</title>
+		<meta charset="UTF-8">
+</head>
+<body>
+	<h1>Pokedex</h1>
+	<p>Der Pokedex ist eine umfangreiche Datenbank, die alle bekannten Pokemon enthält Im Pokedex sind alle Pokemon die es gibt registriert. Ausserdem stehen alle Informationen zu jedem Pokemon, wie z.B Geschlecht,Größe als auch Gewicht. Im Pokedex steht sogar wo und wann man das Pokemon finden kann. Jedoch gibt es einige Ausnahmen bei Legendären oder mythischen Pokemon, über die es keine offiziellen Informationen gibt sondern nur Theorien oder Märchen, da diese Pokemon zu selten sind.</p>
+</body>
+</html>
